@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.DatingActivity">
+    <LinearLayout
+        android:padding="3dp"
+        android:background="@drawable/botron_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sắp xếp : "
+            android:drawableLeft="@drawable/ic_filter"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/tv_trang_thai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botron_linearlayout"
+            android:padding="3dp"
+            android:text="Trạng thái ">
+
+        </TextView>
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/tv_time_gan_nhat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/botron_linearlayout"
+            android:padding="3dp"
+            android:text="Thời gian gần nhất">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_thong_bao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingTop="250dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:visibility="gone">
+
+        <TextView
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:background="@drawable/botron_linearlayout"
+            android:id="@+id/tv_thong_bao_chua_co_hen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Bạn chưa có cuộc hẹn nào  Let's Date!!"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:visibility="visible">
+
+        </TextView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_weight="3"
+        android:background="@color/white"
+        android:dividerHeight="10.0sp">
+
+    </ListView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_menu"
+        app:itemTextColor="@drawable/selector"
+
+        app:menu="@menu/nav_menu"
+
+        ></com.google.android.material.bottomnavigation.BottomNavigationView>
+</LinearLayout>

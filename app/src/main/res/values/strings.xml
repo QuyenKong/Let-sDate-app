@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Let\'s date</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="login_now">Login Now</string>
+    <string name="don_t_remember_password">Don\'t  Remember password?</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="sign_in_with_facebook">Sign in with Facebook</string>
+    <string name="create_new_an_account">Create new an account</string>
+    <string name="re_enter_the_password">Re-enter the password</string>
+    <string name="phone_number">Number phone</string>
+    <string name="coloborator">Collaborator</string>
+    <string name="visitor">Visitor</string>
+    <string name="or">or</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="sex_custom">Custom</string>
+    <string name="infomation">Thông tin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="preference_auth">auth_storage</string>
+    <string name="base_url">http://45.76.145.161:5000/api</string>
+    <string name="base_firebase_storage">https://firebasestorage.googleapis.com/v0/b/utc-sem6.appspot.com/o/</string>
+</resources>

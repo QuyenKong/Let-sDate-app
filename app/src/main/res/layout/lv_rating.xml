@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/stroke_linear_with_shadow"
+    >
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="Phuong Bui "></TextView>
+    <RatingBar
+        android:layout_marginLeft="5dp"
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:numStars="5"
+        android:clickable="false"
+        android:rating="1"
+        android:stepSize="3"
+        style="?android:attr/ratingBarStyleSmall"></RatingBar>
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tv_comment"
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:text="Ngon bổ rẻ hehehe"></TextView>
+</LinearLayout>

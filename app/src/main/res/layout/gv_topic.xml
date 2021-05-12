@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@drawable/botron_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+        <EditText
+            android:id="@+id/edt_show_topic_selected"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Đáng yêu, Dễ thương, ..."
+
+            android:layout_weight="9">
+
+        </EditText>
+
+        <Button
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/btn_app"
+            android:textColor="@color/white"
+            android:id="@+id/btn_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:text="Xác nhận">
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <GridView
+            android:horizontalSpacing="15dp"
+            android:verticalSpacing="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/gv_topic"
+            android:listSelector="@drawable/list_selector"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="3">
+
+        </GridView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    >
+    <LinearLayout
+        android:background="@drawable/stroke_linear_with_shadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="start"
+            android:background="@drawable/stroke_image_collab"
+            android:src="@drawable/ic_face"></ImageView>
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginRight="15sp"
+            android:gravity="start"
+            android:text="Bùi Phương"
+            android:textColor="#F0564A"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:paddingLeft="5dp"
+            android:visibility="gone"
+            android:id="@+id/tv_bio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginRight="15sp"
+            android:gravity="start"
+            android:text="Dễ gần và siêu ngoan"
+            android:textColor="#9298A1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:id="@+id/tv_price"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="start"
+            android:text="100.000 đ/h"
+            android:paddingLeft="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

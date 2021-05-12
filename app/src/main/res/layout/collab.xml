@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/stroke_custom"
+    android:orientation="horizontal"
+    android:padding="5dp"
+
+    >
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+            <ImageView
+                android:scaleType="fitCenter"
+                android:id="@+id/iv_avatar"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:background="@drawable/stroke_image"
+                android:src="@drawable/ic_face"></ImageView>
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="#F0564A"
+            android:text="100.000 đ/h"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <!--    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--        android:id="@+id/iv_avatar"-->
+    <!--        android:layout_width="120dp"-->
+    <!--        android:layout_height="120dp"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:src="@drawable/ic_face"-->
+    <!--        app:civ_border_color="@color/white"-->
+    <!--        app:civ_border_width="3dp" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="7dp">
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginRight="15sp"
+                android:layout_marginBottom="15sp"
+                android:gravity="start"
+                android:text="Bùi Phương"
+                android:textColor="#F0564A"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_bio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginRight="15sp"
+            android:gravity="start"
+            android:text="Dễ gần và siêu ngoan"
+            android:textColor="#9298A1"
+            android:textSize="18sp" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_price"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="start"-->
+<!--            android:layout_marginRight="15sp"-->
+<!--            android:gravity="start"-->
+<!--            android:text="100.000 đ/h"-->
+<!--            android:textColor="#F0564A"-->
+<!--            android:textSize="30sp"-->
+<!--            android:textStyle="bold" />-->
+
+
+    </LinearLayout>
+
+</LinearLayout>

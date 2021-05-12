@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="60dp"
+        android:background="@color/White"
+        android:gravity="center"
+        android:text="Chi tiết lịch hẹn"
+        android:textColor="@color/PaleVioletRed"
+        android:textSize="22sp"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/botron_linearlayout"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Trạng thái"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_status"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:padding="10dp"
+            android:text="Đang chờ"
+            android:textColor="@color/Orange"
+            android:textSize="18sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/botron_linearlayout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Người đặt lịch"
+                android:textSize="18sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:padding="10dp"
+                android:text="Quyền Đức Công"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold">
+
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Số điện thoại "
+                android:textSize="18sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:padding="10dp"
+                android:text="0363183838"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="italic">
+
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/botron_linearlayout"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Thời gian bắt đầu"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_start_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:padding="10dp"
+            android:text="20:00 14/04/2021"
+            android:textColor="@color/DarkBlue"
+            android:textSize="18sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/botron_linearlayout"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Thời gian kết thúc"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_end_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:padding="10dp"
+            android:text="23:00 14/04/2021"
+            android:textColor="@color/DarkBlue"
+            android:textSize="18sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/botron_linearlayout"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_coin_owned"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Số tiền nhận được "
+            android:textSize="18sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_coin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:gravity="end"
+            android:paddingTop="10dp"
+            android:text="150 Co"
+            android:textColor="@color/DarkOrange"
+            android:textSize="18sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/btn_successful"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/botron_linearlayout"
+            android:text="Hoàn thành"
+            android:textColor="@color/HotPink"
+            android:visibility="visible"
+            android:textSize="16sp"
+            android:textStyle="bold|normal|italic">
+        </Button>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
